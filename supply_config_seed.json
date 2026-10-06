@@ -1,0 +1,47 @@
+[
+  {
+    "PK": "SUPPLY",
+    "SK": "DIVERSION_LIMITS",
+    "limits": {
+      "Surplus": 0.20,
+      "Comfortable": 0.15,
+      "Managed": 0.10,
+      "High Constraint": 0.05,
+      "Critical Constraint": 0.0
+    },
+    "source": "Daryll Framework v2 - diversion limits by team resource status"
+  },
+  {
+    "PK": "TEAM#c0db420f-fcec-4d76-b653-42f8788315fd",
+    "SK": "CONFIG",
+    "teamName": "GamStop (dev)",
+    "teamType": "DEDICATED",
+    "headcount": 10,
+    "flexFraction": 0.2,
+    "resourceStatus": "Comfortable",
+    "flexedOut": 0,
+    "source": "PLACEHOLDER - headcount, status and flexedOut are illustrative; flexFraction 0.2 is the 80/20 ring-fence"
+  },
+  {
+    "PK": "TEAM#354ed575-0151-4fc8-ac36-c4393ef35f8b",
+    "SK": "CONFIG",
+    "teamName": "Mind",
+    "teamType": "DEDICATED",
+    "headcount": 10,
+    "flexFraction": 0.2,
+    "resourceStatus": "Comfortable",
+    "flexedOut": 0,
+    "source": "PLACEHOLDER - some Mind queues appear 100% protected; confirm with Daryll whether protection is per queue or per team"
+  },
+  {
+    "PK": "TEAM#b5dc33a8-2db8-4d9f-a82c-47f899f56337",
+    "SK": "CONFIG",
+    "teamName": "Bureau (dev)",
+    "teamType": "BUREAU",
+    "headcount": 25,
+    "flexFraction": 0.0,
+    "resourceStatus": "Managed",
+    "flexedOut": 0,
+    "source": "PLACEHOLDER - Bureau is the main destination, so flexFraction 0 means Bureau agents do not move out in this first version"
+  }
+]
