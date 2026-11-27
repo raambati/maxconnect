@@ -1,0 +1,165 @@
+{
+ "L3-A within both caps": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 15,
+     "callsMonthToDate": 300
+    }
+   ]
+  }
+ },
+ "L3-B month to date over (108.6%)": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 15,
+     "callsMonthToDate": 430
+    }
+   ]
+  }
+ },
+ "L3-C day over (113.6%)": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 25,
+     "callsMonthToDate": 300
+    }
+   ]
+  }
+ },
+ "L3-D both over, month worse": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 25,
+     "callsMonthToDate": 560
+    }
+   ]
+  }
+ },
+ "L3-E both over, day worse": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 33,
+     "callsMonthToDate": 400
+    }
+   ]
+  }
+ },
+ "L3-F ranking flips": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Empathy_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    },
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": [
+    {
+     "queueName": "Empathy_Tel",
+     "callsToday": 5,
+     "callsMonthToDate": 10
+    },
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "callsToday": 1,
+     "callsMonthToDate": 1
+    }
+   ]
+  }
+ },
+ "L3-G ranking without demand": {
+  "email": "t.mind@maximusuk.co.uk",
+  "instanceId": "354ed575-0151-4fc8-ac36-c4393ef35f8b",
+  "dryRun": true,
+  "scenario": {
+   "asOf": "2026-11-18",
+   "queues": [
+    {
+     "queueName": "Empathy_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    },
+    {
+     "queueName": "Gamstop_Online_General_Enquiries_Tel",
+     "contactsInQueue": 3,
+     "oldestContactAgeSeconds": 120
+    }
+   ],
+   "demand": []
+  }
+ }
+}
